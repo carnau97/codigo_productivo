@@ -5,7 +5,7 @@
 
 ## Librerías
 
-pip install pyyaml
+#pip install pyyaml
 import yaml
 import pandas as pd
 import numpy as np
@@ -17,7 +17,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
 import pickle
-from funciones import predict_and_get_auc, chi_square
+
+import sys
+sys.path.append('/Users/carmenarnau/Desktop/02.Aplicaciones_ML_202412/sesion2/ejercicios/codigo_productivo/churn_project_production/')
+from utils.funciones import predict_and_get_auc, chi_square
 
 # Cargar el archivo YAML
 
