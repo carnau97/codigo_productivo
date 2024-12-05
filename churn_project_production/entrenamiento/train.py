@@ -6,6 +6,8 @@
 ## Librerías
 
 #pip install pyyaml
+#pip install pandas
+#pip install scikit-learn
 import yaml
 import pandas as pd
 import numpy as np
@@ -19,8 +21,10 @@ from sklearn.model_selection import GridSearchCV
 import pickle
 
 import sys
-sys.path.append('/Users/carmenarnau/Desktop/02.Aplicaciones_ML_202412/sesion2/ejercicios/codigo_productivo/churn_project_production/')
+sys.path.append('/Users/carmenarnau/Desktop/02.Aplicaciones_ML_202412/sesion2/practica/codigo_productivo/churn_project_production/')
 from utils.funciones import predict_and_get_auc, chi_square
+
+
 
 # Cargar el archivo YAML
 
