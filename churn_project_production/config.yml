@@ -1,0 +1,13 @@
+data_paths:
+  clientes: "datos/clientes_"
+  consumos: "datos/consumos_"
+  financiacion: "datos/financiacion_"
+  productos: "datos/productos_"
+
+model_paths:
+  trained_model: "modelos/"
+  pipeline: "pipelines/"
+  input_vars: "input_vars/"
+
+prediction_paths:
+  predictions: "resultados/"
